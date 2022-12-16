@@ -9,6 +9,7 @@ import androidx.room.Update
 
 @Dao
 interface PostDao {
+
     @Query("SELECT * FROM POST")
     suspend fun getPosts(): List<Post>
 

@@ -17,6 +17,7 @@ class AddFragment : Fragment(R.layout.fragment_add) {
     val viewModel: PostViewModel by activityViewModels()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<FloatingActionButton>(R.id.addPost)
             .setOnClickListener {

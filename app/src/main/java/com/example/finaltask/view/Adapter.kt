@@ -10,6 +10,7 @@ import com.example.finaltask.R
 import com.example.finaltask.model.database.Post
 
 class Adapter(val context: Context, var list: List<Post>) :
+
     RecyclerView.Adapter<Adapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val title: TextView = view.findViewById(R.id.titleText)
